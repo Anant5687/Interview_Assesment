@@ -1,0 +1,53 @@
+.golden-video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .golden-video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%; 
+    min-height: 100%;
+     width: auto;
+    height: auto; 
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+  }
+    
+  .content {
+    position: relative;
+    z-index: 1; /* Keeps the content above the video */
+    color: white; /* Ensure content is visible */
+    text-align: center;
+    padding: 20px;
+    bottom: 80px;
+  }
+  
+  .content h1{
+   color: #FFFFFF;
+   font-size: 90.65px;
+   font-weight: 700;
+   line-height: 273.51px;
+   text-align: center;
+   
+  }
+  
+  .card-img-bg img {
+    position: absolute;
+    top: -20px;
+  } 
+  
+  .CardsContainer{
+    position: absolute;
+      transform: translate(-50%, -50px);
+      top: 50%;
+      left: 50%;
+  }
+
+  .RatanSirImg{
+
+    clip-path: polygon(100% 0, 0 0, 50% 175%);
+}

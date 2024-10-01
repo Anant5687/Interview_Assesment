@@ -3,6 +3,7 @@ import Facilities from './components/facilities';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import HeroSection from './components/hero-section/HeroSection';
+import Impact from './components/impact/impact';
 import PopularCards from './components/popular-cards/PopularCards';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Facilities />
       <PopularCards />
       <CompareCards />
+      <Impact />
       {/* <Footer /> */}
     </div>
   );

@@ -1,9 +1,9 @@
 import React from 'react';
-
 import CardsSvg from '../../assets/images/cards.svg';
 import PercentageSvg from '../../assets/images/percent.svg';
 import ShieldSvg from '../../assets/images/shield.svg';
 import ChartSvg from '../../assets/images/chart.svg';
+import AbstractVideFile from '../../assets/videos/abstract-video.mp4';
 
 import './style.css';
 
@@ -26,13 +26,17 @@ const HeroSection = () => {
     },
     {
       img: ShieldSvg,
-      heading: 'Max Benifits',
+      heading: 'Max Benefits',
       desc: 'Get maximum benefits from your Credit Cards',
     },
   ];
 
   return (
-    <div style={{position:'relative'}}>
+    <div style={{ position: 'relative' }}>
+      {' '}
+      <video autoPlay loop muted playsInline className="background-video">
+        <source src={AbstractVideFile} type="video/mp4" />
+      </video>
       <div className="hero-container">
         <div className="right-cont">
           <h1 className="hero-heading">
@@ -41,7 +45,10 @@ const HeroSection = () => {
           <button className="hero-btn">Find a credit card</button>
         </div>
         <div className="left-cont">
-          <img src="/card.png" alt="CARD" />
+          {/* <video autoPlay loop muted playsInline className="background-video">
+            <source src={AbstractVideFile} type="video/mp4" />
+          </video> */}
+          <img src="/card.png" alt="CARD" className="center-image" />
         </div>
       </div>
       <div className="offer-section">

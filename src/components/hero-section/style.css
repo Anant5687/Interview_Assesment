@@ -31,12 +31,24 @@
 .left-cont {
   flex-basis: 49%;
   position: relative;
+  overflow: hidden;
+  height: 100%;
 }
 
-.left-cont img {
+.background-video {
   position: absolute;
-  top: -235px;
-  left: 145px;
+  width: 70%;
+  height: 100vh;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.center-image {
+  position: relative;
+  z-index: 1;
+  height: auto;
 }
 
 .offer-section {
@@ -45,19 +57,19 @@
   color: #ffffff;
   display: flex;
   justify-content: space-between;
-  width: auto;  
+  width: auto;
   position: absolute;
   bottom: -270px;
 }
 
-.offer-card{
+.offer-card {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;    
+  flex-direction: column;
 }
 
-.offer-card h3{
+.offer-card h3 {
   font-size: 44px;
   font-weight: 700;
   line-height: 52.8px;
@@ -66,7 +78,7 @@
   margin: 0px;
 }
 
-.offer-card p{
+.offer-card p {
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
@@ -75,7 +87,7 @@
   margin: 0px;
 }
 
-.facilities{
+.facilities {
   display: flex;
   padding: 28px 48px;
   justify-content: space-between;
