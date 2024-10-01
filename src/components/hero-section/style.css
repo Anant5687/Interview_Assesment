@@ -41,20 +41,20 @@
 
 .offer-section {
   background: rgba(255, 255, 255, 0);
-  padding: 28px 48px;
-  position: absolute;
-  bottom: -15px;
+  padding: 0px 48px;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
-  width: auto;
+  width: auto;  
+  position: absolute;
+  bottom: -270px;
 }
 
 .offer-card{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column;    
 }
 
 .offer-card h3{

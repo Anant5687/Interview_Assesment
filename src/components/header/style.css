@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 30px;
 }
 
 .btn {
@@ -30,7 +31,7 @@
   height: 46px !important;
 }
 
-.img-continer{
+.img-continer {
   width: 70.86px;
   height: 70.86px;
   overflow: hidden;

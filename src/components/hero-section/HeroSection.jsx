@@ -4,9 +4,6 @@ import CardsSvg from '../../assets/images/cards.svg';
 import PercentageSvg from '../../assets/images/percent.svg';
 import ShieldSvg from '../../assets/images/shield.svg';
 import ChartSvg from '../../assets/images/chart.svg';
-import CardKunadliSvg from '../../assets/images/card-kunadli.svg';
-import CompareCardSvg from '../../assets/images/compare-card.svg';
-import MyCreditSvg from '../../assets/images/my-credit.svg';
 
 import './style.css';
 
@@ -34,10 +31,8 @@ const HeroSection = () => {
     },
   ];
 
-  const Facilities = [CardKunadliSvg, CompareCardSvg, MyCreditSvg];
-
   return (
-    <>
+    <div style={{position:'relative'}}>
       <div className="hero-container">
         <div className="right-cont">
           <h1 className="hero-heading">
@@ -62,14 +57,7 @@ const HeroSection = () => {
           </div>
         ))}
       </div>
-      <div className='facilities'>
-      {Facilities.map((ele, i) => (
-        <div key={i} className="facility-card">
-          <img src={ele} alt="" />
-        </div>
-      ))}
-      </div>
-    </>
+    </div>
   );
 };
 
