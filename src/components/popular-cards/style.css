@@ -1,0 +1,93 @@
+.popular-cards-container {
+  background: #000000;
+  padding: 28px 48px;
+  color: #ffffff;
+}
+
+.heading-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-section div h1 {
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 93.6px;
+  text-align: center;
+}
+
+.cards-options {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.btn {
+  padding-top: 14.4px 28.8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.offering-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-options .active {
+  background: #ffffff;
+}
+
+.cards-options .inactive {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.card-details {
+  margin-left: 23px;
+}
+
+.card-name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: left;
+}
+
+.label-container {
+  display: flex;
+  gap: 4px;
+}
+
+.card-label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.card-offer {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+.card-desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+
+.card-apply {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-apply a {
+  color: #ffe9be;
+  text-decoration: none;
+}
