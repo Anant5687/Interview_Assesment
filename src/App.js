@@ -1,3 +1,4 @@
+import CompareCards from './components/compare-card/CompareCards';
 import Facilities from './components/facilities';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <Facilities />
       <PopularCards />
+      <CompareCards />
       {/* <Footer /> */}
     </div>
   );

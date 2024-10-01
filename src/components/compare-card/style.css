@@ -1,0 +1,16 @@
+.card-img-bg {
+  background-image: url('../../../public/popular-cards-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 28px 48px;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-bg img {
+  position: absolute;
+  top: -20px;
+}
