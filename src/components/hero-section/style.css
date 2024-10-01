@@ -1,0 +1,83 @@
+.hero-container {
+  background-image: url('../../../public/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 28px 48px;
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  align-items: center;
+}
+
+.right-cont {
+  flex-basis: 49%;
+}
+
+.hero-heading {
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 98.4px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 !important;
+}
+
+.hero-btn {
+  margin-top: 12px;
+  padding: 10.67px 18.67px;
+}
+
+.left-cont {
+  flex-basis: 49%;
+  position: relative;
+}
+
+.left-cont img {
+  position: absolute;
+  top: -235px;
+  left: 145px;
+}
+
+.offer-section {
+  background: rgba(255, 255, 255, 0);
+  padding: 28px 48px;
+  position: absolute;
+  bottom: -15px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.offer-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.offer-card h3{
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: center;
+  color: black;
+  margin: 0px;
+}
+
+.offer-card p{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(177, 177, 177, 1);
+  margin: 0px;
+}
+
+.facilities{
+  display: flex;
+  padding: 28px 48px;
+  justify-content: space-between;
+  margin-top: 250px;
+}
