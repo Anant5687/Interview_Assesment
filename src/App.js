@@ -15,7 +15,7 @@ function App() {
       <PopularCards />
       <CompareCards />
       <Impact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
