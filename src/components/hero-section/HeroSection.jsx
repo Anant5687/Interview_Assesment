@@ -57,7 +57,7 @@ const HeroSection = () => {
             <img
               src={ele.img}
               alt=""
-              style={{ width: '200px', height: '200px' }}
+              // style={{ width: '100px', height: '200px' }}
             />
             <h3>{ele.heading}</h3>
             <p>{ele.desc}</p>

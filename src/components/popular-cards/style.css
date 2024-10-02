@@ -8,6 +8,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.heading-section .vector-1{
+  position: absolute;
+  left: -100px;
+}
+
+.heading-section .vector-2{
+  position: absolute;
+  right: 0;
 }
 
 .heading-section div h1 {
@@ -33,6 +44,11 @@
 .offering-cards{
   display: flex;
   justify-content: space-between;
+}
+
+.offering-cards .card .card-img{
+  width: 310px;
+  height: 292px;
 }
 
 .cards-options .active {
@@ -91,3 +107,9 @@
   color: #ffe9be;
   text-decoration: none;
 }
+
+
+/* @media screen and (min-width: 1024px) {
+  .offering-cards .card img {
+  }
+} */

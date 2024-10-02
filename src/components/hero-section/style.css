@@ -15,9 +15,9 @@
 }
 
 .hero-heading {
-  font-size: 82px;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 98.4px;
+  line-height: 68.4px;
   text-align: left;
   color: #ffffff;
   margin: 0 !important;
@@ -35,10 +35,15 @@
   height: 100%;
 }
 
+.left-cont img{
+  width: 100%;
+    margin-top: 70px;
+}
+
 .background-video {
   position: absolute;
-  width: 70%;
-  height: 100vh;
+  width: 75%;
+  height: 70vh;
   object-fit: cover;
   right: 0;
   bottom: 0;
@@ -59,7 +64,7 @@
   justify-content: space-between;
   width: auto;
   position: absolute;
-  bottom: -270px;
+  bottom: -200px;
 }
 
 .offer-card {
@@ -69,8 +74,15 @@
   flex-direction: column;
 }
 
+
+
+.offer-section .offer-card img{
+  width: 100px;
+  height: 100px;
+}
+
 .offer-card h3 {
-  font-size: 44px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 52.8px;
   text-align: center;
@@ -79,7 +91,7 @@
 }
 
 .offer-card p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 33px;
   text-align: center;

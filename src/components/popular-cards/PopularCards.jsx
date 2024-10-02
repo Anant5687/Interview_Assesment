@@ -13,7 +13,7 @@ const PopularCards = () => {
   return (
     <div className="popular-cards-container">
       <div className="heading-section">
-        <img src="/right-vector.svg" alt="RightVector" />
+        <img src="/right-vector.svg" alt="RightVector" className='vector-1' />
         <div>
           <h1>Popular credit cards for every dedicated category</h1>
           <div className="cards-options">
@@ -28,12 +28,12 @@ const PopularCards = () => {
             ))}
           </div>
         </div>
-        <img src="/left-vector.svg" alt="LeftVector" />
+        <img src="/left-vector.svg" alt="LeftVector" className='vector-2' />
       </div>
       <div className='offering-cards'>
         {cards.map((c) => (
-          <div key={c}>
-            <img src={Card3} alt="Card1" />
+          <div key={c} className='card'>
+            <img src={Card3} alt="Card1" className='card-img' />
             <div className="card-details">
               <h4 className="card-name">HDFC Regalia</h4>
               <div className="label-container">
